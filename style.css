@@ -1,4 +1,5 @@
-body{
+
+ .body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -6,6 +7,11 @@ h1{
 }
 .white-color{
     color: white;
+}
+.orange-bg {
+    background-color: #FCEAE8;
+    border-radius: 10px;
+    height: 180px;
 }
  .donate-container{
     text-align: center;
@@ -42,7 +48,6 @@ h1{
     display: flex;
     justify-content: center;
   }
-  
   .text-size > div {
     background-color: #f1f1f1;
     width: 100px;
@@ -67,13 +72,13 @@ h1{
   .healthy-container{
     display: flex;
     justify-content: center;
+    padding-right: 20px;
   }
   .healthy-container > div {
     background-color: #4c4b4dd5;
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 230px;
     margin: 10px;
-    text-align: center;
     line-height: 75px;
     font-size: 20px;
   }
@@ -82,12 +87,32 @@ h1{
   }
   #bg-color2{
     background-color: rgba(56, 21, 23, 0.767);
-  }
+}
   .footer-img{
     background-color: black;
-    height: 180px;
+    height: 160px;
+    }
+    #bd-highligh {
+    background-color: blue;
     }
     #moon{
         text-align: center;
         color: rgb(161, 22, 22);
     }
+    #input-box{
+        height: 20px;
+        width: 200px;
+    }
+    .input-button{
+        background-color: burlywood;
+        background-position: 50%;
+        height: 180px;
+        width: 50%;
+    }
+    #sub-button{
+        background-color: rgba(221, 44, 183, 0.842);
+        border: 20px;
+        border-radius: 2px;
+    }
+  
+    

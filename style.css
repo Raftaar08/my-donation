@@ -64,4 +64,30 @@ h1{
     width: 60%;
     padding-left: 20%;
   }
-  
+  .healthy-container{
+    display: flex;
+    justify-content: center;
+  }
+  .healthy-container > div {
+    background-color: #4c4b4dd5;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+  }
+  #bg-color {
+    background-color: rgba(107, 124, 133, 0.452);
+  }
+  #bg-color2{
+    background-color: rgba(56, 21, 23, 0.767);
+  }
+  .footer-img{
+    background-color: black;
+    height: 180px;
+    }
+    #moon{
+        text-align: center;
+        color: rgb(161, 22, 22);
+    }
